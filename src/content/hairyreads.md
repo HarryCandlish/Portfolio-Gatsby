@@ -1,5 +1,5 @@
 ---
-title: "Hairy Reads"
+title: "HAIRY-READS"
 author: "Harry Candlish"
 ---
 

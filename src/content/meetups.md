@@ -1,5 +1,5 @@
 ---
-title: "Capital Meet-Ups"
+title: "CAPITAL MEET-UPS"
 author: "Alex, Nat, Ranjt, Arpo, Harry"
 ---
 

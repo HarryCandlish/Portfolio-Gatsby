@@ -33,7 +33,7 @@ const IndexPage = () => {
         </p>
       </div>
       <div>
-        <h1 className={homeStyles.projectTitle}>Projects</h1>
+        <h1 className={homeStyles.projectTitle}>PROJECTS</h1>
         <ol className={homeStyles.projects}>
           {data.allMarkdownRemark.edges.map(edge => {
             return (
@@ -46,7 +46,7 @@ const IndexPage = () => {
           })}
         </ol>
         <div>
-          <h1 className={homeStyles.projectTitle}>Experience</h1>
+          <h1 className={homeStyles.projectTitle}>EXPERIENCE</h1>
           <ol className={homeStyles.projects}>
             <li className={homeStyles.project}>
               <img
