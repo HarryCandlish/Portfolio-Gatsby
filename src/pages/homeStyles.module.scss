@@ -37,7 +37,6 @@ body {
   border: #000000 1px;
 }
 .project {
-  border: #000000 1px;
   align-items: center;
   max-width: 25%;
   text-align: center;
@@ -45,7 +44,7 @@ body {
   height: 100%;
   padding: 0.5rem;
   margin: 1rem;
-  box-shadow: 1px 1px 1px 1px;
+  box-shadow: 0.3px 0.3px 1px 0.3px;
 
   a {
     text-decoration: none;
@@ -96,7 +95,7 @@ body {
 .contact {
   width: 30%;
   position: relative;
-  left: 30%;
+  left: 14rem;
   margin: 0;
   padding: 0;
   top: -200px;
@@ -110,4 +109,18 @@ body {
 
 hr {
   width: 50%;
+}
+
+.linkIcon {
+  width: 40px;
+  position: relative;
+  left: 19rem;
+  top: -12rem;
+}
+
+.gitIcon {
+  width: 40px;
+  position: relative;
+  left: 13.5rem;
+  top: -12rem;
 }

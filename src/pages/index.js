@@ -146,6 +146,24 @@ const IndexPage = () => {
           <Link className={homeStyles.link} to="./contact">
             <h1 className={homeStyles.contact}>CONTACT</h1>
           </Link>
+          <a
+            href="https://www.linkedin.com/in/harry-candlish-875154a1/"
+            className={homeStyles.link}
+            to="./contact"
+          >
+            <img
+              alt="linkedin"
+              className={homeStyles.linkIcon}
+              src="linkedin.png"
+            />
+          </a>
+          <a
+            href="https://github.com/HarryCandlish"
+            className={homeStyles.link}
+            to="./contact"
+          >
+            <img alt="git" className={homeStyles.gitIcon} src="git.png" />
+          </a>
         </div>
       </div>
     </Layout>
