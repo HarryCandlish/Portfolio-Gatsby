@@ -9,6 +9,7 @@ const Header = () => {
       <nav className={headerStyles.nav}>
         <ul>
           <li>
+            <img alt="nav" className={headerStyles.image} src="./nav.png" />
             <ul>
               <li>
                 <Link to="/blog">Blog &nbsp; &nbsp; </Link>

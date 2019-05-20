@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  color: #24305e;
+}
+
+.image {
+  width: 100%;
+  height: 400px;
+}
+
+.title {
+  color: #24305e;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  font-size: 40px;
+}
+
+.description {
+  position: absolute;
+  width: 40%;
+  padding-left: 10%;
+  top: 11.5rem;
+  margin: 0;
+}
+
+.projects {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: #000000 1px;
+}
+.project {
+  border: #000000 1px;
+  align-items: center;
+  max-width: 25%;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  padding: 0.5rem;
+  margin: 1rem;
+  box-shadow: 1px 1px 1px 1px;
+
+  a {
+    color: #000000;
+
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center space-between;
+    align-items: center;
+
+    border-radius: 2%;
+  }
+
+  a:hover {
+    border: 1px solid black;
+  }
+
+  h3 {
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+  }
+}
+.images {
+  width: 100%;
+  height: 10%;
+}
+
+.projectTitle {
+  text-align: center;
+}
+
+.images1 {
+  height: 200px;
+  padding-left: 4rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.finalP {
+  width: 30%;
+  position: relative;
+  left: 30%;
+  margin: 0;
+  padding: 0;
+  top: -260px;
+}
+
+.contact {
+  width: 30%;
+  position: relative;
+  left: 30%;
+  margin: 0;
+  padding: 0;
+  top: -200px;
+  text-decoration: underline;
+}
+
+.link {
+  text-decoration: none;
+  color: #24305e;
+}
