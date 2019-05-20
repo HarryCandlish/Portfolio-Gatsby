@@ -124,12 +124,7 @@ const IndexPage = () => {
         <h1 className={homeStyles.projectTitle}>EXPERIENCE</h1>
         <ol className={homeStyles.projects}>
           <li className={homeStyles.project}>
-            <img
-              alt="Enspiral"
-              className={homeStyles.images}
-              src="dev-academy.png"
-            />
-            <h2>ENSPIRAL</h2>
+            <h2>ENSPIRAL DEV ACADEMY</h2>
             <p>
               The Enspiral programme involves over 1000 hours of coding
               experience, and relies on its students to be self-directed,
@@ -155,12 +150,7 @@ const IndexPage = () => {
             <hr />
           </li>
           <li className={homeStyles.project}>
-            <img
-              alt="RedCross"
-              className={homeStyles.images}
-              src="./redcross.jpg"
-            />
-            <h2>RED CROSS</h2>
+            <h2>NEW ZEALAND RED-CROSS</h2>
             <p>
               Volunteering had a significant influence on how it is I view the
               world, it helped me discover the rewards associated with helping
@@ -186,8 +176,7 @@ const IndexPage = () => {
             <hr />
           </li>
           <li className={homeStyles.project}>
-            <img alt="hospo" className={homeStyles.images} src="hospo.jpg" />
-            <h2>HOSPITALITY</h2>
+            <h2>HOSPITALITY : WELLINGTON HOSPITALITY GROUP</h2>
             <p>
               Customer service skills are important in any industry, and through
               my time working in hospitality I’ve learnt how to communicate with
