@@ -3,7 +3,10 @@ import React from "react"
 const ContactPage = () => {
   return (
     <div>
-      <p>contact</p>
+      <h2>Contact Details</h2>
+
+      <p>Email: hcnd90@gmail.com</p>
+      <p>Phone: 0277165983</p>
     </div>
   )
 }
