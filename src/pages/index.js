@@ -30,6 +30,9 @@ const IndexPage = () => {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
           odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla
           quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent
+          <br />
+          <br />
+          <Link to="/contact">CONTACT</Link>
         </p>
       </div>
       <div>
@@ -39,8 +42,19 @@ const IndexPage = () => {
             return (
               <li className={homeStyles.project}>
                 <h2>{edge.node.frontmatter.title}</h2>
-                <p>{edge.node.frontmatter.author}</p>
-                <p>{edge.node.excerpt}</p>
+                <h3>{edge.node.frontmatter.author}</h3>
+                <p>
+                  {edge.node.excerpt}
+                  <br />
+                  <br />
+                  <a href="#">
+                    <h4>CODE</h4>
+                  </a>
+                  <hr />
+                  <a href="#">
+                    <h4>APP</h4>
+                  </a>
+                </p>
               </li>
             )
           })}
@@ -68,6 +82,10 @@ const IndexPage = () => {
                 tellus sed augue semper porta. Mauris massa. Vestibulum lacinia
                 arcu eget nulla. Class aptent taciti sociosq.
               </p>
+              <br />
+              <br />
+              <h4>REFEREE</h4>
+              <hr />
             </li>
             <li className={homeStyles.project}>
               <img
@@ -89,6 +107,10 @@ const IndexPage = () => {
                 tellus sed augue semper porta. Mauris massa. Vestibulum lacinia
                 arcu eget nulla. Class aptent taciti sociosq.
               </p>
+              <br />
+              <br />
+              <h4>REFEREE</h4>
+              <hr />
             </li>
             <li className={homeStyles.project}>
               <img alt="hospo" className={homeStyles.images} src="hospo.jpg" />
@@ -106,6 +128,10 @@ const IndexPage = () => {
                 tellus sed augue semper porta. Mauris massa. Vestibulum lacinia
                 arcu eget nulla. Class aptent taciti sociosq.
               </p>
+              <br />
+              <br />
+              <h4>REFEREE</h4>
+              <hr />
             </li>
           </ol>
         </div>
