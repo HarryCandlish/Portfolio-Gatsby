@@ -45,22 +45,23 @@ const IndexPage = () => {
               5. Staying passionate and setting goals and planning on how to
               reach those goals.
             </p>
-            <a href="#">
+            <p>SQlite, React, Redux, Team Managment</p>
+            <a href="https://github.com/kahu-2019/meet-ups">
               <h4>CODE</h4>
-            </a>
-            <hr />
-            <a href="#">
-              <h4>APP</h4>
             </a>
           </li>
           <li className={homeStyles.project}>
             <h2>HAIRY-READS</h2>
             <p>
-              Volunteering had a significant influence on how it is I view the
-              world, it helped me discover the rewards associated with helping
-              others, and though my role was small in comparison to what some
-              others are doing. It really gave me a sense of what I want to do
-              going forward, which is to impact society in a positive way.
+              Worked on an individual project during Enspiral. The project was
+              completed outside of class hours and was fundamental in helping us
+              acknowledge our own strengths and weaknesses. My plan was to
+              create a reading diary, wherein the user could follow their
+              reading progress, what books they wanted to read, what books they
+              were reading, etc. To do this I attempted to use the GoodReads API
+              and use the data so the user could access numerous books. I was
+              unable to access the API and was forced to settle for another API
+              with less data.
             </p>
 
             <h4>WHAT I LEARNT WORKING ON THE PROJECT:</h4>
@@ -81,41 +82,23 @@ const IndexPage = () => {
               the data they have. This made it almost impossible to get.
             </p>
             <p>5. At all points, ask for help for reasons of effiency </p>
-            <a href="#">
+            <a href="https://github.com/HarryCandlish/HairyReads/blob/master/client/components/Fiction.jsx">
               <h4>CODE</h4>
-            </a>
-            <hr />
-            <a href="#">
-              <h4>APP</h4>
             </a>
           </li>
           <li className={homeStyles.project}>
-            <h2>READING JOURNAL</h2>
+            <h2>TODOS</h2>
             <p>
-              Customer service skills are important in any industry, and through
-              my time working in hospitality I’ve learnt how to communicate with
-              anyone that has had a significant impact on my relationships
-              outside the role.
+              A simple Todos using react, working with state, props, click
+              changes and components.
             </p>
             <h4>WHAT I LEARNT WORKING ON THE PROJECT:</h4>
-            <p className={homeStyles.lists}>
-              1. Working with React and Redux to improve my skills in those
-              areas.
-            </p>
-            <p>
-              2. Working on something that I'm passionate about; when you can
-              incorporate the things you love into coding, it's usually more
-              exciting.
-            </p>
-            <p>3. Sqlite data structures</p>
-            <p>4. CSS and HTML.</p>
+            <p className={homeStyles.lists}>1. Basic React functionality.</p>
+            <p>2. State and props.</p>
+            <p>3. Handle Changes and events</p>
 
-            <a href="#">
+            <a href="https://github.com/HarryCandlish/todos-react">
               <h4>CODE</h4>
-            </a>
-            <hr />
-            <a href="#">
-              <h4>APP</h4>
             </a>
           </li>
         </ol>
