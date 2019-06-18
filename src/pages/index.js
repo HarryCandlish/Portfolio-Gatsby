@@ -8,7 +8,11 @@ const IndexPage = () => {
   return (
     <Layout>
       <div>
-        <img className={homeStyles.image} alt="octopus1" src="./octopus1.png" />
+        <img
+          className={homeStyles.image}
+          alt="octopus1"
+          src=".public/octopus1.png"
+        />
         <h2 className={homeStyles.title}>Harry Candlish</h2>
         <p className={homeStyles.description}>
           Building toward becoming a skilled software developer through
