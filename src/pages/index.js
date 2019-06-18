@@ -8,11 +8,7 @@ const IndexPage = () => {
   return (
     <Layout>
       <div>
-        <img
-          className={homeStyles.image}
-          alt="octopus1"
-          src=".public/octopus1.png"
-        />
+        <img className={homeStyles.image} alt="octopus1" src="octopus1.png" />
         <h2 className={homeStyles.title}>Harry Candlish</h2>
         <p className={homeStyles.description}>
           Building toward becoming a skilled software developer through
@@ -37,7 +33,7 @@ const IndexPage = () => {
               Through doing this we were required to focus on Agile based
               techniques in keeping up with tasks.
             </p>
-            <h4>WHAT I LEARNT WORKING ON THE PROJECT:</h4>
+            <h4>WHAT I LEARNT WORKING ON THE PROJECT</h4>
             <p className={homeStyles.lists}>1.Self-directed Learning </p>
             <p>2. Helping others through the course. </p>
             <p>3. Self-discipline.</p>
@@ -68,7 +64,7 @@ const IndexPage = () => {
               with less data.
             </p>
 
-            <h4>WHAT I LEARNT WORKING ON THE PROJECT:</h4>
+            <h4>WHAT I LEARNT WORKING ON THE PROJECT</h4>
             <p className={homeStyles.lists}>
               1. Self-Discipline in working independently on an individual
               project.
@@ -96,7 +92,7 @@ const IndexPage = () => {
               A simple Todos using react, working with state, props, click
               changes and components.
             </p>
-            <h4>WHAT I LEARNT WORKING ON THE PROJECT:</h4>
+            <h4>WHAT I LEARNT WORKING ON THE PROJECT</h4>
             <p className={homeStyles.lists}>1. Basic React functionality.</p>
             <p>2. State and props.</p>
             <p>3. Handle Changes and events</p>
@@ -120,7 +116,7 @@ const IndexPage = () => {
               students that they conduct themselves professionally throughout
               the course.
             </p>
-            <h4>MY RESPONSIBILITIES AT ENSPIRAL:</h4>
+            <h4>MY RESPONSIBILITIES AT ENSPIRAL</h4>
             <p className={homeStyles.lists}>1.Self-directed Learning </p>
             <p>2. Helping others through the course. </p>
             <p>3. Self-discipline.</p>
@@ -146,7 +142,7 @@ const IndexPage = () => {
               going forward, which is to impact society in a positive way.
             </p>
 
-            <h4>MY RESPONSIBILITIES AS A VOLUNTEER:</h4>
+            <h4>MY RESPONSIBILITIES AS A VOLUNTEER</h4>
             <p className={homeStyles.lists}>
               1. Helping with finance and teaching how to use finance related
               technologies and systems.
@@ -170,7 +166,7 @@ const IndexPage = () => {
               anyone that has had a significant impact on my relationships
               outside the role.
             </p>
-            <h4>MY RESPONSIBILITIES IN HOSPITALITY:</h4>
+            <h4>MY RESPONSIBILITIES IN HOSPITALITY</h4>
             <p className={homeStyles.lists}>1. Costumer Service</p>
             <p>2. Staff Training. </p>
             <p>3. Communication</p>
