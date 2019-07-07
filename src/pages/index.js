@@ -87,18 +87,34 @@ const IndexPage = () => {
             </a>
           </li>
           <li className={homeStyles.project}>
-            <h2>TODOS</h2>
+            <h2>MENTAL HEALTH NZ</h2>
             <p>
-              A simple Todos using react, working with state, props, click
-              changes and components.
+              A business idea; selling branded clothing to promote mental health
+              awareness in Wellington. Front-end is built using React, Chart-JS,
+              Sass and HTML. Backend is built using Express, SQlite, Knex.
             </p>
             <h4>WHAT I LEARNT WORKING ON THE PROJECT</h4>
+            <h2>Front-End</h2>
             <p className={homeStyles.lists}>1. Basic React functionality.</p>
-            <p>2. State and props.</p>
+            <p>2. State and props</p>
             <p>3. Handle Changes and events</p>
+            <p>4. Accessing data Id</p>
+            <p>5. Sass and design patterns</p>
+            <p>6. Chart JS</p>
+            <h2>Back-End</h2>
+            <p className={homeStyles.lists}>1. Express</p>
+            <p>2. Sqlite and Knex</p>
+            <p>3. Creating Databases</p>
+            <p>4. Routes</p>
+            <p>5. Database Functions</p>
+            <p>6. Sharing Data Across Back-End and Front-End</p>
 
-            <a href="https://github.com/HarryCandlish/todos-react">
-              <h4>CODE</h4>
+            <a href="https://github.com/HarryCandlish/MentalHealth_NZ_BackEnd">
+              {" "}
+              <h4>Back-End Code</h4>{" "}
+            </a>
+            <a href="https://github.com/HarryCandlish/MentalHealth_NZ_Front">
+              <h4>Front-End Code</h4>
             </a>
           </li>
         </ol>
