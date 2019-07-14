@@ -63,7 +63,7 @@ const IndexPage = () => {
             <img
               className={homeStyles.reads}
               alt="reads"
-              src="hairyreads.JPG"
+              src="hairyreads.jpg"
             />
             <p>
               Worked on an individual project during Enspiral. The project was
@@ -104,12 +104,12 @@ const IndexPage = () => {
             <img
               className={homeStyles.mental}
               alt="health"
-              src="alliswell.JPG"
+              src="alliswell.jpg"
             />
             <img
               className={homeStyles.mental2}
               alt="health"
-              src="alliswell2.JPG"
+              src="alliswell2.jpg"
             />
             <p>
               A business idea; selling branded clothing to promote mental health
