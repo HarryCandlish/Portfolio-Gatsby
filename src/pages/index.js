@@ -23,6 +23,11 @@ const IndexPage = () => {
         <ol className={homeStyles.projects}>
           <li className={homeStyles.project}>
             <h2>CAPITAL MEET-UPS</h2>
+            <img
+              className={homeStyles.meetups}
+              alt="meetups"
+              src="meetsups.JPG"
+            />
             <p>
               the final project for Enspiral Dev Academy. The class was
               segmented into groups, and each group had a week to build a
@@ -49,9 +54,17 @@ const IndexPage = () => {
             <a href="https://github.com/kahu-2019/meet-ups">
               <h4>CODE</h4>
             </a>
+            <a href="https://capitalmeetups.herokuapp.com/#/">
+              <h4>APP</h4>
+            </a>
           </li>
           <li className={homeStyles.project}>
             <h2>HAIRY-READS</h2>
+            <img
+              className={homeStyles.reads}
+              alt="reads"
+              src="hairyreads.JPG"
+            />
             <p>
               Worked on an individual project during Enspiral. The project was
               completed outside of class hours and was fundamental in helping us
@@ -87,7 +100,17 @@ const IndexPage = () => {
             </a>
           </li>
           <li className={homeStyles.project}>
-            <h2>MENTAL HEALTH NZ</h2>
+            <h2>ALL IS WELL</h2>
+            <img
+              className={homeStyles.mental}
+              alt="health"
+              src="alliswell.JPG"
+            />
+            <img
+              className={homeStyles.mental2}
+              alt="health"
+              src="alliswell2.JPG"
+            />
             <p>
               A business idea; selling branded clothing to promote mental health
               awareness in Wellington. Front-end is built using React, Chart-JS,
@@ -124,6 +147,11 @@ const IndexPage = () => {
         <ol className={homeStyles.projects}>
           <li className={homeStyles.project}>
             <h2>ENSPIRAL DEV ACADEMY</h2>
+            <img
+              className={homeStyles.mental}
+              alt="dev"
+              src="dev-academy.png"
+            />
             <p>
               The Enspiral programme involves over 1000 hours of coding
               experience, and relies on its students to be self-directed,
@@ -144,12 +172,14 @@ const IndexPage = () => {
               5. Staying passionate and setting goals and planning on how to
               reach those goals.
             </p>
-
-            <h4>REFEREE</h4>
-            <hr />
           </li>
           <li className={homeStyles.project}>
             <h2>NEW ZEALAND RED-CROSS</h2>
+            <img
+              className={homeStyles.mental}
+              alt="redcross"
+              src="redcross.jpg"
+            />
             <p>
               Volunteering had a significant influence on how it is I view the
               world, it helped me discover the rewards associated with helping
@@ -170,12 +200,10 @@ const IndexPage = () => {
               Income.
             </p>
             <p>5. Coffee</p>
-
-            <h4>REFEREE</h4>
-            <hr />
           </li>
           <li className={homeStyles.project}>
             <h2>HOSPITALITY : WELLINGTON HOSPITALITY GROUP</h2>
+            <img className={homeStyles.mental} alt="hospo" src="hospo.jpg" />
             <p>
               Customer service skills are important in any industry, and through
               my time working in hospitality I’ve learnt how to communicate with
@@ -188,8 +216,6 @@ const IndexPage = () => {
             <p>3. Communication</p>
             <p>4. Money Handling.</p>
             <p>5. Dealing with disgruntled customers.</p>
-            <h4>REFEREE</h4>
-            <hr />
           </li>
         </ol>
       </div>
