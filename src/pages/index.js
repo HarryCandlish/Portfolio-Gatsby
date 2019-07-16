@@ -8,7 +8,7 @@ const IndexPage = () => {
   return (
     <Layout>
       <div>
-        <img className={homeStyles.image} alt="octopus1" src="octopus1.png" />
+        <img className={homeStyles.image} alt="octopus1" src="./images/octopus1.png" />
         <h2 className={homeStyles.title}>Harry Candlish</h2>
         <p className={homeStyles.description}>
           Building toward becoming a skilled software developer through
@@ -26,7 +26,7 @@ const IndexPage = () => {
             <img
               className={homeStyles.meetups}
               alt="meetups"
-              src="meetsups.JPG"
+              src="./images/meetsups.JPG"
             />
             <p>
               the final project for Enspiral Dev Academy. The class was
@@ -63,7 +63,7 @@ const IndexPage = () => {
             <img
               className={homeStyles.reads}
               alt="reads"
-              src="hairyreads.jpg"
+              src="./images/hairyreads.jpg"
             />
             <p>
               Worked on an individual project during Enspiral. The project was
@@ -104,12 +104,12 @@ const IndexPage = () => {
             <img
               className={homeStyles.mental}
               alt="health"
-              src="alliswell.jpg"
+              src="./images/alliswell.jpg"
             />
             <img
               className={homeStyles.mental2}
               alt="health"
-              src="alliswell2.jpg"
+              src="./images/alliswell2.jpg"
             />
             <p>
               A business idea; selling branded clothing to promote mental health
@@ -150,7 +150,7 @@ const IndexPage = () => {
             <img
               className={homeStyles.mental}
               alt="dev"
-              src="dev-academy.png"
+              src="./images/dev-academy.png"
             />
             <p>
               The Enspiral programme involves over 1000 hours of coding
@@ -178,7 +178,7 @@ const IndexPage = () => {
             <img
               className={homeStyles.mental}
               alt="redcross"
-              src="redcross.jpg"
+              src="./images/redcross.jpg"
             />
             <p>
               Volunteering had a significant influence on how it is I view the
@@ -203,7 +203,7 @@ const IndexPage = () => {
           </li>
           <li className={homeStyles.project}>
             <h2>HOSPITALITY : WELLINGTON HOSPITALITY GROUP</h2>
-            <img className={homeStyles.mental} alt="hospo" src="hospo.jpg" />
+            <img className={homeStyles.mental} alt="hospo" src="./images/hospo.jpg" />
             <p>
               Customer service skills are important in any industry, and through
               my time working in hospitality I’ve learnt how to communicate with
@@ -223,7 +223,7 @@ const IndexPage = () => {
         <img
           alt="seahorse"
           className={homeStyles.images1}
-          src="seahorse1.svg"
+          src="./images/seahorse1.svg"
         />
 
         <br />
@@ -238,7 +238,7 @@ const IndexPage = () => {
           <img
             alt="linkedin"
             className={homeStyles.linkIcon}
-            src="linkedin.png"
+            src="./images/linkedin.png"
           />
         </a>
         <a
@@ -246,7 +246,7 @@ const IndexPage = () => {
           className={homeStyles.link}
           to="./contact"
         >
-          <img alt="git" className={homeStyles.gitIcon} src="git.png" />
+          <img alt="git" className={homeStyles.gitIcon} src="./images/git.png" />
         </a>
       </div>
     </Layout>
