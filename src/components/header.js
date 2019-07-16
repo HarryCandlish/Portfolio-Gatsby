@@ -3,13 +3,15 @@ import { Link } from "gatsby"
 
 import headerStyles from "./header.module.scss"
 
+import nav from "../images/nav.png"
+
 const Header = () => {
   return (
     <div>
       <nav className={headerStyles.nav}>
         <ul>
           <li>
-            <img alt="nav" className={headerStyles.image} src="./nav.png" />
+            <img alt="nav" className={headerStyles.image} src={nav} />
             <ul>
               <li>
                 <Link to="/contact">Contact </Link>

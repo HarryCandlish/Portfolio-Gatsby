@@ -4,11 +4,23 @@ import { Link } from "gatsby"
 import Layout from "../components/Layout"
 import homeStyles from "./homeStyles.module.scss"
 
+import octopus from "../images/octopus1.png"
+import meetups from "../images/meetsups.jpg"
+import reads from "../images/hairyreads.jpg"
+import alliswell from "../images/alliswell.jpg"
+import alliswell2 from "../images/alliswell2.jpg"
+import eda from "../images/dev-academy.png"
+import redcross from "../images/redcross.jpg"
+import seahorse from "../images/seahorse1.svg"
+import hospo from "../images/hospo.jpg"
+import git from "../images/git.png"
+import linkedin from "../images/linkedin.png"
+
 const IndexPage = () => {
   return (
     <Layout>
       <div>
-        <img className={homeStyles.image} alt="octopus1" src="./images/octopus1.png" />
+        <img className={homeStyles.image} alt="octopus1" src={octopus} />
         <h2 className={homeStyles.title}>Harry Candlish</h2>
         <p className={homeStyles.description}>
           Building toward becoming a skilled software developer through
@@ -23,11 +35,7 @@ const IndexPage = () => {
         <ol className={homeStyles.projects}>
           <li className={homeStyles.project}>
             <h2>CAPITAL MEET-UPS</h2>
-            <img
-              className={homeStyles.meetups}
-              alt="meetups"
-              src="./images/meetsups.JPG"
-            />
+            <img className={homeStyles.meetups} alt="meetups" src={meetups} />
             <p>
               the final project for Enspiral Dev Academy. The class was
               segmented into groups, and each group had a week to build a
@@ -60,11 +68,7 @@ const IndexPage = () => {
           </li>
           <li className={homeStyles.project}>
             <h2>HAIRY-READS</h2>
-            <img
-              className={homeStyles.reads}
-              alt="reads"
-              src="./images/hairyreads.jpg"
-            />
+            <img className={homeStyles.reads} alt="reads" src={reads} />
             <p>
               Worked on an individual project during Enspiral. The project was
               completed outside of class hours and was fundamental in helping us
@@ -101,16 +105,8 @@ const IndexPage = () => {
           </li>
           <li className={homeStyles.project}>
             <h2>ALL IS WELL</h2>
-            <img
-              className={homeStyles.mental}
-              alt="health"
-              src="./images/alliswell.jpg"
-            />
-            <img
-              className={homeStyles.mental2}
-              alt="health"
-              src="./images/alliswell2.jpg"
-            />
+            <img className={homeStyles.mental} alt="health" src={alliswell} />
+            <img className={homeStyles.mental2} alt="health" src={alliswell2} />
             <p>
               A business idea; selling branded clothing to promote mental health
               awareness in Wellington. Front-end is built using React, Chart-JS,
@@ -147,11 +143,7 @@ const IndexPage = () => {
         <ol className={homeStyles.projects}>
           <li className={homeStyles.project}>
             <h2>ENSPIRAL DEV ACADEMY</h2>
-            <img
-              className={homeStyles.mental}
-              alt="dev"
-              src="./images/dev-academy.png"
-            />
+            <img className={homeStyles.mental} alt="eda" src={eda} />
             <p>
               The Enspiral programme involves over 1000 hours of coding
               experience, and relies on its students to be self-directed,
@@ -175,11 +167,7 @@ const IndexPage = () => {
           </li>
           <li className={homeStyles.project}>
             <h2>NEW ZEALAND RED-CROSS</h2>
-            <img
-              className={homeStyles.mental}
-              alt="redcross"
-              src="./images/redcross.jpg"
-            />
+            <img className={homeStyles.mental} alt="redcross" src={redcross} />
             <p>
               Volunteering had a significant influence on how it is I view the
               world, it helped me discover the rewards associated with helping
@@ -203,7 +191,7 @@ const IndexPage = () => {
           </li>
           <li className={homeStyles.project}>
             <h2>HOSPITALITY : WELLINGTON HOSPITALITY GROUP</h2>
-            <img className={homeStyles.mental} alt="hospo" src="./images/hospo.jpg" />
+            <img className={homeStyles.mental} alt="hospo" src={hospo} />
             <p>
               Customer service skills are important in any industry, and through
               my time working in hospitality I’ve learnt how to communicate with
@@ -220,11 +208,7 @@ const IndexPage = () => {
         </ol>
       </div>
       <div className={homeStyles.container}>
-        <img
-          alt="seahorse"
-          className={homeStyles.images1}
-          src="./images/seahorse1.svg"
-        />
+        <img alt="seahorse" className={homeStyles.images1} src={seahorse} />
 
         <br />
         <Link className={homeStyles.link} to="./contact">
@@ -235,18 +219,14 @@ const IndexPage = () => {
           className={homeStyles.link}
           to="./contact"
         >
-          <img
-            alt="linkedin"
-            className={homeStyles.linkIcon}
-            src="./images/linkedin.png"
-          />
+          <img alt="linkedin" className={homeStyles.linkIcon} src={linkedin} />
         </a>
         <a
           href="https://github.com/HarryCandlish"
           className={homeStyles.link}
           to="./contact"
         >
-          <img alt="git" className={homeStyles.gitIcon} src="./images/git.png" />
+          <img alt="git" className={homeStyles.gitIcon} src={git} />
         </a>
       </div>
     </Layout>
